@@ -1,0 +1,78 @@
+Sure, here are examples of both semantic and non-semantic HTML tags:
+
+**Semantic HTML Tags:**
+1. `<header>`: Represents a header section.
+2. `<nav>`: Defines a navigation menu.
+3. `<main>`: Contains the main content of the document.
+4. `<article>`: Represents an independent, self-contained piece of content.
+5. `<section>`: Defines a section of a document.
+6. `<aside>`: Represents content that is tangentially related to the content around it.
+7. `<footer>`: Represents a footer section.
+
+**Non-Semantic HTML Tags:**
+1. `<div>`: Generic container that does not convey any specific meaning.
+2. `<span>`: Inline container that does not convey any specific meaning.
+3. `<b>`: Represents bold text, but does not convey the meaning of why the text is bold.
+4. `<i>`: Represents italicized text, but does not convey the meaning of why the text is italicized.
+5. `<font>`: Used to define the font size, color, and face, but does not convey structural meaning.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+
+HTML tags are the building blocks of HTML (Hypertext Markup Language) documents. They are used to define and structure content on a web page. HTML tags consist of opening and closing tags, and they enclose elements to indicate the beginning and end of the element. Here are some common HTML tags:
+
+1. **`<html>`**: Represents the root of an HTML document.
+2. **`<head>`**: Contains meta-information about the HTML document, such as the title, character set, and linked stylesheets.
+3. **`<title>`**: Sets the title of the HTML document.
+4. **`<body>`**: Contains the content of the HTML document, such as text, images, links, and other elements.
+5. **`<h1> to <h6>`**: Define headings, with `<h1>` being the largest and `<h6>` being the smallest.
+6. **`<p>`**: Represents a paragraph.
+7. **`<a>`**: Creates hyperlinks, allowing you to link to other web pages or resources.
+8. **`<img>`**: Embeds images into the document.
+9. **`<ul>`**: Defines an unordered (bulleted) list.
+10. **`<ol>`**: Defines an ordered (numbered) list.
+11. **`<li>`**: Represents a list item within an ordered or unordered list.
+12. **`<div>`**: Represents a division or section in an HTML document and is often used for layout.
+13. **`<span>`**: Defines an inline section in an HTML document.
+14. **`<strong>`**: Represents strong importance or seriousness.
+15. **`<em>`**: Represents emphasized text.
+16. **`<br>`**: Represents a line break.
+17. **`<hr>`**: Represents a horizontal rule or line.
+18. **`<form>`**: Defines an HTML form for user input.
+19. **`<input>`**: Creates an input field within a form.
+20. **`<textarea>`**: Defines a multiline text input control within a form.
+
+These are just a few examples, and there are many more HTML tags available for various purposes. HTML tags work in pairs, with an opening tag (`<tag>`) and a closing tag (`</tag>`), and they surround the content to define its structure and presentation on the web page.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+
+what is attribute in html ?
+
+
+
+In HTML (Hypertext Markup Language), an attribute is additional information provided within the opening tag of an HTML element. Attributes are used to modify or provide extra details about an HTML element, and they are always included in the opening tag.
+
+The basic syntax for an HTML attribute is:
+
+```html
+<tagname attribute="value">Content</tagname>
+```
+
+Here, `attribute` is the attribute name, and `"value"` is the value assigned to that attribute.
+
+For example, in the following `<a>` (anchor) tag, the `href` attribute is used to specify the URL the link points to:
+
+```html
+<a href="https://www.example.com">Visit Example Website</a>
+```
+
+Attributes can be present in various HTML elements, and they serve different purposes based on the element they are associated with. Common attributes include `src` for specifying the source of an image or script, `alt` for providing alternative text for images, `class` for assigning a class to an element, and `id` for giving a unique identifier to an element.
+
+Attributes play a crucial role in enhancing the functionality, appearance, and behavior of HTML elements within a web page.
+
+
+
+
+

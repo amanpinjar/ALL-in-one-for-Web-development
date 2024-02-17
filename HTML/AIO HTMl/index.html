@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- title tag -->
+    <title>My First Website </title>
+</head>
+
+<!-- control + / -->
+<!-- shift + alt + f -->
+
+<body>
+    <!-- Header Tag    -->
+    <header> This is Header</header>
+    <hr>
+
+    <h1>Hello</h1>
+    <h2>Hello</h2>
+    <h3>Hello</h3>
+    <h4>Hello</h4>
+    <h5>Hello</h5>
+    <h6>Hello</h6>
+    <hr>
+    <!-- this is to explain div and span  -->
+
+    <div>This our first web site <span> all in well</span> </div>
+    <hr />
+    <div>This our first web site </div>
+    <hr />
+    <b>Aman Pinjar</b>
+    <br />
+    <i>Aman Pinjar</i>
+    <hr>
+    <!-- strong tag is same as b tag  -->
+    <strong> just Similar as bold tag</strong>
+    <!-- paragraph tag is used to write the text or contant of a webpage -->
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus quae at quaerat voluptas. Cupiditate iusto
+        ab fuga beatae obcaecati fugit iure, excepturi voluptate incidunt non soluta. Autem nobis mollitia delectus!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sint consequuntur molestiae veritatis officia
+        corrupti architecto eaque iure. Doloremque dolore sed sint earum sapiente quia iusto nisi. Eum, dolores aliquid!
+    </p>
+    <!-- figure tag is user to group the no-text format figure together   -->
+    <figure>
+        <!-- figcaption tag is used to add the title to the figure tag  -->
+        <figcaption>Superman</figcaption>
+        <img src="https://wallpapers.com/images/hd/superman-pictures-x8j8blqg4t9e5nhm.jpg" alt="Superman" width="200 px"
+            height="200" />
+    </figure>
+    <!-- figure tag is user to group the no-text format figure together   -->
+    <figure>
+        <figcaption>new School</figcaption>
+        <img src="Modern online school .png" alt="Modern online school" width="300" height="300" />
+
+    </figure>
+
+    <!-- anchor tag with href -->
+
+    <a href="https://www.google.com/" target="_blank">google</a> <br>
+    <a href="./Demo.html">go to Demo</a>
+
+    <!-- unorder list -->
+
+    <ul>
+        <li>Mumbai</li>
+        <li>Delhi</li>
+        <li>Chennai</li>
+        <li>kokata</li>
+    </ul>
+
+    <!-- order list  -->
+    <ol>
+        <li>Mumbai</li>
+        <li>Delhi</li>
+        <li>Chennai</li>
+        <li>kokata</li>
+    </ol>
+
+    <!-- Form tag -->
+    <form autocomplete="off">
+        <h3>Registration form</h3>
+        <!-- label tag is used to add the title to the form tag -->
+        <label for="username">username :</label>
+        <!-- input tag is used to take the input from the user  -->
+        <input id="username" type="text" placeholder="Enter username" required />
+        <br />
+        <!-- label tag is used to add the title to the form tag -->
+        <label for="Email">Email :</label>
+        <input id="Email" type="email" placeholder="Enter Email" />
+        <br />
+        <!-- label tag is used to add the title to the form tag -->
+        <label for="Moblie No">Mobile No :</label>
+        <input id="Moblie No" type="number" placeholder="Enter number " />
+        <br />
+        <!-- label tag is used to add the title to the form tag -->
+        <label for="Password">Password :</label>
+        <input id="Password" type="password" placeholder="Enter password" />
+        <br />
+        <!-- label tag is used to add the title to the form tag -->
+        <label for="DOB">Data of birth :</label>
+        <input id="DOB" type="date" />
+        <br />
+        <!-- label tag is used to add the title to the form tag -->
+        <label for="gender">gender :</label>
+        <label>male : <input type="radio"></label>
+        <label>female : <input type="radio"></label>
+        <br />
+        <!-- label tag is used to add the title to the form tag -->
+        <label>Languages Known: </label>
+        <br />
+        <label>English: <input type="checkbox"></label>
+        <label>Hindi: <input type="checkbox"></label>
+        <label>French: <input type="checkbox"></label>
+        <label>Bengali: <input type="checkbox"></label>
+        <label>Russian: <input type="checkbox"></label>
+        <label>Mandarin <input type="checkbox"></label>
+        <br />
+        <label>Country :</label>
+        <select>
+            <!-- option tag is used to create a dropdown list -->
+            <option value="india">india</option>
+            <option value="Afghanistan.">Afghanistan.</option>
+            <option value="Albania.">Albania.</option>
+            <option value="Andorra.">Andorra.</option>
+        </select>
+        <br />
+        <label>Upload file</label>
+        <label><input type="file"></label>
+        <br />
+        <label>Time</label>
+        <label><input type="time"></label>
+        <br />
+        <label>Search</label>
+        <label><input type="search"></label>
+        <br />
+        <button>Submit</button>
+        <hr />
+        <!-- table tag is used to create a table -->
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>No .</th>
+                    <th>Full name</th>
+                    <th>Position </th>
+                    <th>salary</th>
+                    <th rowspan="1">Remark</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Aman</td>
+                    <td>Boss</td>
+                    <td>$500000</td>
+                    <td rowspan="5">This is dummy data table</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Siraj</td>
+                    <td>BMS</td>
+                    <td>$300000</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Sana</td>
+                    <td>BSC</td>
+                    <td>$200000</td>
+
+                </tr>
+                <tr>
+                    <td colspan="3">Total Salary</td>
+                    <td>$687687</td>
+
+                </tr>
+            </tbody>
+
+        </table>
+        <hr />
+        <!-- footer tag  -->
+        <footer>This is footer</footer>
+    </form>
+</body>
+
+
+</html>

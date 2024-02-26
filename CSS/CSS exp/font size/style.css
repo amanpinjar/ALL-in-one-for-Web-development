@@ -1,0 +1,17 @@
+body{
+    background-color: #111111;
+}
+
+h1{
+    color: azure;
+    font-family: Passero One;
+}
+
+p{
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: cyan;
+    font-size: 18px;
+}

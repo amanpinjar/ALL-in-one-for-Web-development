@@ -148,7 +148,7 @@
 // //             console.log(`Koalas win (${avgKoalas} vs. ${avgDolphins})`);
 // //         } else {
 // //             console.log("No team wins...");
-// //         }
+// //         }9
 // //     };
 // //     checkWinner(scoreDolphins, scoreKoalas);
 
@@ -171,36 +171,81 @@
 //  }
 
 
-let friend1 ="aman"
-let friend2 = "aditya"
-let friend3 = "yuraj"
+// let friend1 ="aman"
+// let friend2 = "aditya"
+// let friend3 = "yuraj"
 
-//array always start with 0 index
-let friends = ["aman", "aditya", "yuraj"]
-console.log(friends);
+// //array always start with 0 index
+// let friends = ["aman", "aditya", "yuraj"]
+// console.log(friends);
 
-//                0     1   2
-let YearWemet = [1900,2000,2002]
-console.log(YearWemet);
-
-
-//we can access the array through index
-//below 1 is index of 1
-console.log(YearWemet[1]);
-console.log(YearWemet[2]);
-
-console.log(`Lenght of the array yearWemet is ${YearWemet.length}`);
-console.log(YearWemet[YearWemet.length -1]);
-
-friends[0]= "siraj"
-console.log(friends);
+// //                0     1   2
+// let YearWemet = [1900,2000,2002]
+// console.log(YearWemet);
 
 
+// //we can access the array through index
+// //below 1 is index of 1
+// console.log(YearWemet[1]);
+// console.log(YearWemet[2]);
 
+// //here we are using length to find the array in YearWemet
+// console.log(`Lenght of the array yearWemet is ${YearWemet.length}`);
+// console.log(YearWemet[YearWemet.length -1]);
 
+// //removing aman from index 0 and updating siraj at index 0 in the array 
+// friends[0]= "siraj"
+// console.log(friends);
 
 
 
+// let calcAge = (birthYear)=>{
+//     return 2024 - birthYear;
+// }
+
+// let year = [1998,2005.2004,2006];
+// console.log(calcAge(birthYear[0]));
+
+
+
+// let friends = ["aman", "aditya", "yuraj"]
+
+// friends.push("roy")
+// console.log(friends);
+
+// // let friendsName = newfriend.push("raj");
+// // console.log(friendsName);
+
+// friends.unshift('raj')
+// console.log(friends);
+
+
+// friends.pop();
+// console.log(friends);
+
+
+// friends.shift();
+// console.log(friends);
+
+
+// console.log(friends.indexOf("aman"));
+
+
+// console.log(friends.includes("pinku"));
+
+// if(friends.includes("aman")){
+//     console.log(`yeah !!! pinku is there`);
+// }else{
+//     console.log('sad face');
+// }
+
+function calcTip(bill) {
+    if (bill >= 50 && bill <= 300) {
+      return bill * 0.15;
+    } else {
+      return bill * 0.2;
+    }
+  }
 
 
 
@@ -221,3 +266,51 @@ console.log(friends);
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function calcTip(meal) {
+//     if (meal > 50 && meal < 300) {
+//       tip = meal * .15
+//       totalCost = tip + meal
+//       console.log("The meal will cost "+ meal + " and the tip will be " + tip + ". This means the total cost will be " + totalCost + ".");
+  
+//     } else {
+//       tip = meal * .20
+//       totalCost = tip + meal
+//       console.log("The meal will cost "+ meal + " and the tip will be " + tip + ". This means the total cost will be " + totalCost + ".");
+//   }
+//   }
+//   const bills = [125, 555, 44];
+//   const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
+//   const total = [bills[0]+tips[0], bills[1]+tips[1], bills[2]+tips[2]];
+  
+//   console.log(bills);
+//   ////console.log(total); - WHY IS IT NaN?
+//   ///console.log(tips); - WHY IS IT undefined?
+  
+//   bills.push(122)
+//   tips.push(calcTip(bills[3]))
+  
+  
+//   bills.push(258)
+//   tips.push(calcTip(bills[4]))
+  
+//   console.log(bills);
+  
+//   bills.pop()
+  
+//   console.log(bills);
+  
+//   calcTip(bills[2])
+  

@@ -207,6 +207,11 @@
 // console.log(calcAge(birthYear[0]));
 
 
+let FileSystemWritableFileStream 
+
+let t
+
+
 
 // let friends = ["aman", "aditya", "yuraj"]
 
@@ -239,24 +244,43 @@
 //     console.log('sad face');
 // }
 
-function calcTip(bill) {
-    if (bill >= 50 && bill <= 300) {
-      return bill * 0.15;
-    } else {
-      return bill * 0.2;
-    }
-  }
+// function calcTip(bill) {
+//     if (bill >= 50 && bill <= 300) {
+//       return bill * 0.15;
+//     } else {
+//       return bill * 0.2;
+//     }
+//   }
+
+
+
+function calculateGrade () 
 
 
 
 
 
 
+<link rel="preload" href="/lib/fonts/fontawesome.woff2?14663396" as="font" type="font/woff2" crossorigin> 
+<link rel="preload" href="/lib/fonts/source-code-pro-v14-latin-regular.woff2" as="font" type="font/woff2" crossorigin> 
+<link rel="preload" href="/lib/fonts/roboto-mono-v13-latin-500.woff2" as="font" type="font/woff2" crossorigin> 
+<link rel="preload" href="/lib/fonts/source-sans-pro-v14-latin-700.woff2" as="font" type="font/woff2" crossorigin> 
+<link rel="preload" href="/lib/fonts/source-sans-pro-v14-latin-600.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/lib/fonts/SourceSansPro-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/lib/fonts/freckle-face-v9-latin-regular.woff2" as="font" type="font/woff2" crossorigin> 
+<link rel="stylesheet" href="/lib/topnav/main.css?v=1.0.31">
+<link rel="stylesheet" href="/lib/my-learning/main.css?v=1.0.25">
+<link rel="stylesheet" href="/lib/pathfinder/main.css?v=1.0.3">
+<link rel="stylesheet" href="/lib/w3schools32.css?v=1.0.1"></link>
 
 
 
+console.log("the apple buibling exercise in all major languages of the");
 
+function font woff2 crossorigin
 
+gtm datalayer the way TagName if the equal === (s)[0]
+replace pandas
 
 
 

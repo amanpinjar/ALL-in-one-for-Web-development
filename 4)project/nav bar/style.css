@@ -1,0 +1,35 @@
+*{
+    background-color: rgb(56, 7, 7);
+}
+.nav-bar{
+    display: flex;
+    color: #FFF;
+    background-color: orange;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+}
+
+.main-container{
+    padding: 10%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: #FFF;
+  } 
+  
+  h3 {
+    font-size: 30px;
+    text-align: center;
+    color: #FFF;
+  }

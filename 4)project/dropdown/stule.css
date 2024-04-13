@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(240, 191, 87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  select {
+    width: 200px;
+    height: 30px;
+    border: solid black;
+    padding: 0%;
+    margin: 0%;
+    background-color: gray;
+  }
+  
+  option {
+    text-align: center;
+  }
+  
